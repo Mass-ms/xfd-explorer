@@ -1,0 +1,19 @@
+{
+    "name": "Vite React Dev Container",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "appPort": [
+        5173
+    ],
+    "workspaceFolder": "/app",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "postCreateCommand": ""
+}
