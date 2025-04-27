@@ -15,5 +15,9 @@
             ]
         }
     },
-    "postCreateCommand": ""
+    "postCreateCommand": "",
+    "runArgs": [
+        "--env-file",
+        "${localWorkspaceFolder}/.env"
+    ]
 }
